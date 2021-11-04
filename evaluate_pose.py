@@ -12,7 +12,7 @@ import cv2
 import operator
 import pickle
 
-from nets.ColorHandPose3DNetwork import ColorHandPose3DNetwork
+from data.nets.ColorHandPose3DNetwork import ColorHandPose3DNetwork
 from utils.general import detect_keypoints, trafo_coords, plot_hand, plot_hand_2d, plot_hand_3d
 from pose.DeterminePositions import create_known_finger_poses, determine_position, get_position_name_with_pose_id
 from pose.utils.FingerPoseEstimate import FingerPoseEstimate
